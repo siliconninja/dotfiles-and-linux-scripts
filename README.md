@@ -1,5 +1,5 @@
-# Linux Scripts & Config Files
-A collection of my personal scripts and config files for Linux, including a darker Breeze theme for KDE.
+# Dotfiles & Linux Scripts
+A collection of my dotfiles and personal scripts for Linux, including a darker Breeze theme for KDE.
 
 ## How I am organizing these
 Folders are like "layers" of organization from top to bottom, from the application it is for to the type of file.
