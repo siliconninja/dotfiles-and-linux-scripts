@@ -13,7 +13,7 @@ Folders are like "layers" of organization from top to bottom, from the applicati
 CC-BY-SA 4.0 with exceptions to some files in this repo (see [LICENSE](LICENSE) for more details)
 
 # Credits
-KDE Plasma, license: [LGPL version 2.1](licenses/kde-lgpl2-license.txt)
+KDE Plasma, license: [LGPL version 2.1](licenses/kde-lgpl2.1-license.txt)
 
 zsh, see [copyright notice](licenses/zsh-license.txt).
 
