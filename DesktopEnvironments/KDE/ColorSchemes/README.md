@@ -13,4 +13,4 @@ A darker version of Breeze Dark with near-black windows with no gradient, a blue
 CC-BY-SA 4.0
 
 # Credits
-KDE Plasma, license: [LGPL version 2.1](../../../licenses/kde-lgpl2-license.txt)
+KDE Plasma, license: [LGPL version 2.1](../../../licenses/kde-lgpl2.1-license.txt)
