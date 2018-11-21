@@ -4,4 +4,4 @@ include /usr/share/nano/sh.nanorc
 
 # line numbers
 # https://askubuntu.com/questions/73444/how-to-show-line-numbering-in-nano-when-opening-a-file
-set const
+set constantshow
