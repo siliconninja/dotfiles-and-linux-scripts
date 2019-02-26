@@ -30,3 +30,8 @@ HISTFILE=$HOME/.bash_history
 HISTSIZE=20
 HISTFILESIZE=20
 
+## Compile & make a C program executable using GCC instantly. (This code only works in Bash.)
+## https://stackoverflow.com/questions/941338/how-to-pass-command-line-arguments-to-a-shell-alias
+## https://stackoverflow.com/questions/27658675/how-to-remove-last-n-characters-from-a-string-in-bash
+## Apparently using $1 in the { } doesn't work, it gives a "bad substitution" error. You need a variable name for it.
+alias ccompile="function _ccompile() { gcc -o $1; old=$1 executable_file_name=${old::-2}; chmod +x executable_file_name; }; _ccompile"
