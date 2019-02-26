@@ -34,4 +34,12 @@ HISTFILESIZE=20
 ## https://stackoverflow.com/questions/941338/how-to-pass-command-line-arguments-to-a-shell-alias
 ## https://stackoverflow.com/questions/27658675/how-to-remove-last-n-characters-from-a-string-in-bash
 ## Apparently using $1 in the { } doesn't work, it gives a "bad substitution" error. You need a variable name for it.
-alias ccompile="function _ccompile() { gcc -o $1; old=$1 executable_file_name=${old::-2}; chmod +x executable_file_name; }; _ccompile"
+## Example: main.c in the current directory, type ccompile main.c and then ./main.
+function _ccompile() {
+  cfilename=$1;
+  executable_file_name=${cfilename::-2};
+  echo "=== Compiling $cfilename ==="; gcc $cfilename -o $executable_file_name;
+  echo "=== Making $executable_file_name executable ==="; chmod +x $executable_file_name;
+};
+
+alias ccompile="_ccompile"
