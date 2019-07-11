@@ -4,7 +4,9 @@ alias hist="history"
 alias histc="history -c"
 alias histrm="history -d"
 alias lsa="ls -a"
+alias lslah="ls -lah"
 alias cls="clear"
+alias g="git"
 
 # Custom prompt
 # http://tldp.org/HOWTO/Bash-Prompt-HOWTO/bash-prompt-escape-sequences.html
