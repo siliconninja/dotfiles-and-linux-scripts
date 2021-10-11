@@ -45,3 +45,9 @@ function _ccompile() {
 };
 
 alias ccompile="_ccompile"
+
+## Workaround to avoid needing to installing node modules globally and instead use local node_modules (or similar npm bin) folder
+## (found with the command npm bin in the working directory)
+## https://stackoverflow.com/a/15157360
+## use npx instead of npm
+## (npm install package1 package2 ... packageN, then run npx packageX arguments in the same directory, such as yo joplin -> npx yo joplin)
